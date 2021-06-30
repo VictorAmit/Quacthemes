@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import Header from "../common/Header";
 import Footer from "../common/Footer";
 import Extra from "../common/Optional";
