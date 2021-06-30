@@ -7,12 +7,6 @@ import Extra from "../common/Optional";
 Type '{  }'
 type LayoutProps = {
   children: React.ReactNode;
-  crossOrigin: string; 
-  rel: string; 
-  id: string; 
-  href: string; 
- type: string; 
- media: string;
 };
 
 const Layout = ({ children }: LayoutProps): JSX.Element => {
