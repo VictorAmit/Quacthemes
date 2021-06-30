@@ -4,8 +4,15 @@ import Header from "../common/Header";
 import Footer from "../common/Footer";
 import Extra from "../common/Optional";
 
+Type '{  }'
 type LayoutProps = {
   children: React.ReactNode;
+  crossOrigin: string; 
+  rel: string; 
+  id: string; 
+  href: string; 
+ type: string; 
+ media: string;
 };
 
 const Layout = ({ children }: LayoutProps): JSX.Element => {
@@ -13,7 +20,7 @@ const Layout = ({ children }: LayoutProps): JSX.Element => {
 <>
 <Head>
 <link rel='stylesheet' id='smartmag-core-css'  href='https://www.quacthemes.ml/base/css/main.css' type='text/css' media='all' />
-<link crossorigin="anonymous" rel='stylesheet' id='smartmag-fonts-css'  href='https://fonts.googleapis.com/css?family=Public+Sans%3A400%2C400i%2C500%2C600%2C700' type='text/css' media='all' />
+<link crossOrigin="anonymous" rel='stylesheet' id='smartmag-fonts-css'  href='https://fonts.googleapis.com/css?family=Public+Sans%3A400%2C400i%2C500%2C600%2C700' type='text/css' media='all' />
 <link rel='stylesheet' id='magnific-popup-css'  href='https://www.quacthemes.ml/base/css/lightbox0e7d.css?ver=5.2.0' type='text/css' media='all' />
 <link rel='stylesheet' id='smartmag-icons-css'  href='https://www.quacthemes.ml/base/css/icons/icons0e7d.css?ver=5.2.0' type='text/css' media='all' />
 <script type='text/javascript' src='https://www.quacthemes.ml/base/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
